@@ -1,8 +1,12 @@
+'''LGMVIP DATA SCIENCE INTERNSHIP'''
+'''BASIC LEVEL TASK 4: IMAGE TO PENCIL SKETCH'''
+'''PARTICIPANT NAME: DIENGA JOHN DIVINE '''
+'''TECHNIQUE: COMPUTER VISION'''
 import cv2 as cv
 
 '''Reading the image'''
 image = cv.imread('div.jpg')
-#cv.imshow('Div',image)
+cv.imshow('Div',image)
 
 '''Resizing image'''
 def resize(frame,scale=0.3):
